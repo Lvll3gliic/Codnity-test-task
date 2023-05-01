@@ -10,7 +10,7 @@ import { CssBaseline, createTheme, ThemeProvider, Box } from "@mui/material";
 import { grey } from "@mui/material/colors";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   useEffect(() => {
     const savedDarkMode = localStorage.getItem("darkMode");
     if (savedDarkMode !== null) {
