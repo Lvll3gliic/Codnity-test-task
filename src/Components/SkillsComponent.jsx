@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid, Box, Typography, LinearProgress } from "@mui/material";
+import { Box, Typography, LinearProgress } from "@mui/material";
 import { orange } from "@mui/material/colors";
 
 const SkillsComponent = ({ title, languageData }) => {
