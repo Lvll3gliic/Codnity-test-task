@@ -62,7 +62,6 @@ const Header = ({ onToggleDarkMode, darkMode }) => {
         {navItems.map((item, index) => (
           <ListItem key={index} disablePadding>
             <ListItemButton sx={{ my: 1 }}>
-              <ListItemIcon>{item.icon}</ListItemIcon>
               <Link
                 to={`/${item.text}`}
                 style={{
@@ -70,6 +69,8 @@ const Header = ({ onToggleDarkMode, darkMode }) => {
                   color: theme.palette.secondary.main,
                 }}
               >
+                <ListItemIcon>{item.icon}</ListItemIcon>
+
                 {item.text}
               </Link>
             </ListItemButton>
